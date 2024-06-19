@@ -1,0 +1,34 @@
+Website Lisa:
+
+https://michaela-kronenberger.de/
+
+
+https://wordpress.com/de/theme/annalee?tab_filter=business
+
+
+Onepager:
+
+Zielgruppe: Nachwuchssport, Hochleistungssport
+
+
+- Logo, nur name
+
+- About Me 
+	- Text (Lisa)
+
+- Aktuelles
+	- News Cards (Timeline) Bild, Headine, paragraph
+	- 
+- Überblick Angebote:
+	- Welche Angebot (Name + Beschreibugn) (Lisa)
+
+
+- Contact Form
+	- Name, mail, short text, opt. Tel
+
+- Social Media Links: LinkedIn, Instagram
+
+- Impressum
+
+
+

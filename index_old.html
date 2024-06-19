@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+
+    .swiper-slide {
+      width: 200px; /* Change this to the width you want */
+    }
+  </style>
+
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg-white shadow-lg rounded-lg p-6">Item 1</div>
+      <div class="swiper-slide bg-white shadow-lg rounded-lg p-6">Item 2</div>
+      <div class="swiper-slide bg-white shadow-lg rounded-lg p-6">Item 3</div>
+      <div class="swiper-slide bg-white shadow-lg rounded-lg p-6">Item 4</div>
+      <div class="swiper-slide bg-white shadow-lg rounded-lg p-6">Item 5</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 16,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+
+    const swiper_mobile = new Swiper('.swiper-container.mobil', {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+
+</body>
+
+
+</html>
